@@ -1,0 +1,380 @@
+
+body{
+    background: #E5E5E5;
+}
+
+.wrapper{
+    margin-left: 25px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.banner{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*first banner*/
+
+.first-banner{
+    padding: 16px 120px;
+    width: 1440px;
+    height: 72px;
+    background: #0B2239;
+    font-family: 'Inter';
+    margin-bottom: 24px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.first-banner-paragraph{
+    color: #FFFFFF;
+    width: 922px;
+    height: 40px;
+    font-size: 13px;
+    margin-right: 42px;
+}
+
+.first-banner-link{
+    color: #4AD295;
+    font-size: 12px;
+    text-decoration-line: underline;
+    margin-right: 20px;
+}
+
+.first-banner-button{
+    width: 130px;
+    height: 36px;
+    background: #4AD295;
+    color: #FFFFFF;
+    border-radius: 2px;
+    font-family: 'Inter';
+    font-size: 12px;
+}
+
+/*second banner*/
+
+.second-banner{
+    padding: 16px 345px;
+    width: 1440px;
+    height: 52px;
+    background: #2B2627;
+    font-family: 'Inter';
+    margin-bottom: 72px;
+}
+
+.info-button{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.second-banner-paragraph{
+    color: #FFFFFF;
+    width: 689px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    margin-right: 20px;
+}
+
+.second-banner-link{
+    color: #FFFFFF;
+}
+
+.close-button{
+    width: 17px;
+    height: 16px;
+}
+
+/*third banner*/
+
+.third-banner{
+    padding: 16px;
+    gap: 10px;
+    width: 560px;
+    height: 72px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    font-family: 'Inter';
+    line-height: 20px;
+    
+}
+
+.third-banner-paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    color: #0D0C22;
+}
+
+.third-banner-link{
+    color: #EA4C89;
+    text-decoration: none;
+}
+
+.decline-button{
+    width: 63px;
+    height: 28px;
+    background: rgba(13, 12, 34, 0.05);
+    border-radius: 8px;
+    border: none;
+    color: #0D0C22;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.allow-button{
+    width: 52px;
+    height: 28px;
+    background: #EA4C89;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+/*fourth banner*/
+
+.fourth-banner{
+    width: 560px;
+    height: 64px;
+    background: #26262B;
+    border-radius: 10px;
+    font-family: 'Avenir LT Std';
+    margin-bottom: 72px;
+    padding: 12px 16px;
+}
+
+.fourth-banner-paragraph{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.fourth-banner-link{
+    color: #E6842E;
+    text-decoration: none;
+}
+
+.fourth-banner-button{
+    width: 49px;
+    height: 28px;
+    background: #FFFFFF;
+    color: #26262B;
+    border-radius: 8px;
+}
+
+/*fifth banner*/
+
+.fifth-banner{
+    display: inline-block;
+    padding: 24px;
+    font-family: 'Roboto';
+    width: 360px;
+    height: 206px;
+    background: rgba(28, 37, 64, 0.95);
+    border-radius: 6px;
+    margin-right: 40px;
+    box-sizing: border-box;
+    }
+
+.fifth-banner-heading{
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.fifth-banner-paragraph{
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.fifth-banner-link{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 62px;
+    line-height: 16px;
+}
+
+.fifth-banner-button{
+    width: 85px;
+    height: 32px;
+    background: #09B3AF;
+    border-radius: 6px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* fifth-sixth banners */
+
+.fifth-sixth-banners{
+    display: flex;
+    margin-bottom: 72px;
+}
+
+/*sixth-banner*/
+
+.sixth-banner{
+    padding: 16px;
+    width: 360px;
+    height: 170px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+.sixth-banner-heading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0F181D;
+    margin-bottom: 10px;
+}
+
+.sixth-banner-paragraph{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #687F8C;
+    margin-bottom: 16px;
+}
+
+.manage-button{
+    margin-right: 4px;
+    width: 160px;
+    height: 32px; 
+    background: #EAF0F4;
+    border-radius: 6px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #687F8C;
+}
+
+.accept-button{
+    width: 160px;
+    height: 32px;
+    background: #40C1A7;
+    border-radius: 6px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.seventh-eighth-banners{
+    display: flex;
+}
+
+/*seventh-banner*/
+
+.seventh-banner{
+    padding: 32px;
+    width: 320px;
+    height: 260px;
+    background:  #FFFFFF;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 40px;
+    font-family: 'Inter'; 
+    box-sizing: border-box;
+    }
+
+.seventh-banner-heading{
+    font-family: 'Gilroy-Heavy';
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 48px;
+    color: #15295A;
+}
+
+.seventh-banner-paragraph{
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #15295A;
+}
+
+.seventh-banner-button{
+    width: 121px;
+    height: 44px;
+    background: #4A7EFF;
+    border-radius: 43px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* eighth banner*/
+
+.eighth-banner{
+    width: 320px;
+    height: 137px;
+    border-radius: 4px;
+    padding: 16px;
+    background-color: white;
+    font-family: 'SF Pro Display';
+    letter-spacing: 1px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.eighth-banner-paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.eighth-banner-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6666FF;
+    text-decoration: none;
+    margin-right: 120px;
+}
+
+.eighth-banner-button{
+    width: 64px;
+    height: 33px;
+    border-radius: 4px;
+    border: none;
+    background-color: #6666FF;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 17px;
+    font-weight: 500;
+}
