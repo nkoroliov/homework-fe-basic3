@@ -50,6 +50,7 @@ button{
     width: 130px;
     height: 36px;
     background: #4AD295;
+    border: 0;
     color: #FFFFFF;
     border-radius: 2px;
     font-family: 'Inter';
